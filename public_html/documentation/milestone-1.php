@@ -30,6 +30,6 @@
 		</p>
 		<p><strong>Goals:</strong> Jessica wants to view a blog with a professional and elegant theme that contains new and exciting content that is on brand with
 			her sense of fashion and design.</p>
-		<p><strong>User Story:</strong> Jessica Ferrari selects her new favorite blog based on the quality of wep page design and content.</p>
+		<p><strong>User Story:</strong> Jessica Ferrari selects her new favorite blog based on the quality of wep page design and content. </p>
 	</body>
 </html>
