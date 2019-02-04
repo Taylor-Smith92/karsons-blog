@@ -14,7 +14,7 @@
 		<h1>Persona</h1>
 		<p><strong>Name:</strong> Jessica Ferrari<br> <strong>Age:</strong> 22</p>
 		<p><strong>Occupation:</strong> Internship at a fashion design company</p>
-		<p><strong>Technology:</strong> iPhoneX, MacBookPro 10.13.6</p>
+		<p><strong>Technology:</strong> iPhoneX, MacBookPro High Sierra 10.13.6</p>
 		<p><strong>Attitudes and Behaviors:</strong> Jessica likes to explore the world and find new and interesting things to learn about. She loves to cook for her
 			friends and family and is always looking for new recipes to try out. She just graduated from college and got her first real job in a new city at an up
 			and coming fashion brand. Jessica is on her own fo the first time in her life but she loves it. Although she is nervous about the future she is also
