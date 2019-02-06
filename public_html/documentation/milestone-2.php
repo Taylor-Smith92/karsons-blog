@@ -13,9 +13,10 @@
 		accounts held by the blogger. It will also include a page jump link to the "contact me" form at the bottom of the page. The menu bar will be positioned under the site's main
 		graphic but when the page is scrolled the menu bar will pin to the top of the display, making it accessible anywhere.</p>
 		<p><strong>Content:</strong> This blog's posts will be organized in a single column ordered from most recent at the top. Most blog posts will not have any functionality aside from
-		photo posts will display full resolution versions of the photos when clicked.</p>
+		photo posts will display full resolution versions of the photos when clicked. Users are expected to merely view this blog and not concern themselves with liking, commenting on, or editing.</p>
 		<p><strong>Contact Me:</strong> At the end of the web page will be a form named "Contact Me". It will not contain personal information about the blogger. It will mainly
 		be used for end users to leave private messages for the blogger.</p>
 		<h2>Wire Frames</h2>
+		<img src="pwp-wireframe-5.jpg" alt="Wire Frame" />
 	</body>
 </html>
