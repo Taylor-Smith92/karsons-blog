@@ -15,24 +15,34 @@
 		<header class="container-fluid bg-warning p-5">
 			<img src="#" alt="main page graphic">
 		</header>
-		<section class="container-fluid navbar bg-secondary">
-			<p>Navigator</p>
-		</section>
-		<section id="posts" class="container bg-secondary p-5">
-			<div class="card">
-				<div class="card-content">
-					<p>text</p>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+			<a class="navbar-brand" href="#">Navigator</a>
+			<div class="collapse navbar-collapse">
+				<div class="navbar-nav">
+					<a href="#" class="nav-item nav-link">Instagram link</a>
+					<a href="#" class="nav-item nav-link">Twitter Link</a>
 				</div>
 			</div>
-			<div class="card">
-				<div class="card-content">
-					<p>text</p>
+		</nav>
+		<section name="posts" class="container bg-secondary p-5">
+			<div class="card card-content">
+				<div class="row m-0">
+					<div class="column px-5 py-2">
+						<img src="https://source.unsplash.com/7bwQXzbF6KE/240x160" alt="girl hiking"/>
+					</div>
+					<div class="column pr-5 py-2">
+						<p>text</p>
+					</div>
 				</div>
 			</div>
-			<div class="card">
-				<div class="card-content">
-					<p>text</p>
-				</div>
+			<div class="card card-content">
+				<p>text</p>
+			</div>
+			<div class="card card-content">
+				<p>text</p>
+			</div>
+			<div class="card card-content">
+				<p>text</p>
 			</div>
 		</section>
 		<section id="contactForm" class="container bg-secondary text-warning" name="contact form">
