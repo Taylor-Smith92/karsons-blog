@@ -12,6 +12,7 @@
 		<title>All in Good Taste</title>
 	</head>
 	<body>
+		<!--Header-------------------------------------------------->
 		<header class="container-fluid bg-warning p-5">
 			<img src="#" alt="main page graphic">
 		</header>
@@ -24,31 +25,41 @@
 				</div>
 			</div>
 		</nav>
-		<section name="posts" class="container bg-secondary p-5">
-			<div class="card card-content">
+		<!--Start-of-Posts/Blogs-------------------------------------------------->
+		<section class="container bg-secondary p-2">
+			<div class="card card-content border border-success m-3">
 				<div class="row m-0">
-					<div class="column px-5 py-2">
+					<div class="col-md-4 px-5 py-2">
 						<img src="https://source.unsplash.com/7bwQXzbF6KE/240x160" alt="girl hiking"/>
 					</div>
-					<div class="column pr-5 py-2">
-						<p>text</p>
+					<div class="col-md-8 pr-5 py-2">
+						<p class="">Lorem ipsum dolor sit amet, nisl sodales ac. Enim tempus mi, laoreet praesent tellus ultrices, phasellus orci nulla dolor quisque et, eros sed vivamus elit. Lobortis augue quas, vivamus in rutrum at sit magnis, a tincidunt. Sollicitudin lacus fames hendrerit ut morbi, ultricies venenatis sit aliquam interdum lorem nulla, mi felis, amet temporibus, vestibulum nulla vel in nec sit ornare.</p>
 					</div>
 				</div>
 			</div>
-			<div class="card card-content">
+			<div class="card card-content m-3">
+				<div class="row">
+					<img class="img-fluid mx-auto pt-2 d-block" src="https://source.unsplash.com/7bwQXzbF6KE/720x480" alt="girl hiking"/>
+				</div>
+				<div class="row mt-1">
+					<div class="col">
+						<p class="text-center m-0">Text... its a blurb about this really nice photo</p>
+					</div>
+				</div>
+			</div>
+			<div class="card card-content m-3">
 				<p>text</p>
 			</div>
-			<div class="card card-content">
-				<p>text</p>
-			</div>
-			<div class="card card-content">
+			<div class="card card-content m-3">
 				<p>text</p>
 			</div>
 		</section>
-		<section id="contactForm" class="container bg-secondary text-warning" name="contact form">
+		<!--Contact-Form-------------------------------------------------->
+		<section class="container bg-secondary text-warning" name="contact form">
 			<p class="m-0">This will be the contact form</p>
 		</section>
-		<footer id="footer" class="container-fluid bg-warning p-5">
+		<!--Footer-------------------------------------------------->
+		<footer class="container-fluid bg-warning p-5">
 
 		</footer>
 	</body>
