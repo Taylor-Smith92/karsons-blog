@@ -27,31 +27,58 @@
 		</nav>
 		<!--Start-of-Posts/Blogs-------------------------------------------------->
 		<section class="container bg-secondary p-2">
-			<div class="card card-content border border-success m-3">
-				<div class="row m-0">
-					<div class="col-md-4 px-5 py-2">
-						<img src="https://source.unsplash.com/7bwQXzbF6KE/240x160" alt="girl hiking"/>
+			<div class="card card-content border border-primary m-3">
+				<div class="row mb-5 px-3">
+					<div class="col-12">
+						<h3 class="text-center">Blog Title Is So Interesting</h3>
 					</div>
-					<div class="col-md-8 pr-5 py-2">
-						<p class="">Lorem ipsum dolor sit amet, nisl sodales ac. Enim tempus mi, laoreet praesent tellus ultrices, phasellus orci nulla dolor quisque et, eros sed vivamus elit. Lobortis augue quas, vivamus in rutrum at sit magnis, a tincidunt. Sollicitudin lacus fames hendrerit ut morbi, ultricies venenatis sit aliquam interdum lorem nulla, mi felis, amet temporibus, vestibulum nulla vel in nec sit ornare.</p>
+					<div class="col-md-8 ">
+						<p class="">Every day is taco ipsum tuesday. Give me all your tacos. Tacos Al pastor/De Adobada are made of thin pork steaks seasoned with adobo seasoning, then skewered and overlapped on one another on a vertical rotisserie cooked and flame-broiled as it spins. Add in a few el Pastor with guac and diced onions. Tacos, again? This will be 5 times this week and it’s only Tuesday. Tacos for breakfast, lunch and dinner. Tacos Al pastor/De Adobada are made of thin pork steaks seasoned with adobo seasoning, then skewered and overlapped on one another on a vertical rotisserie cooked and flame-broiled as it spins.
+							<br><br>Tacos, again? This will be 5 times this week and it’s only Tuesday. CARNE ASADA!! Tacos, tacos, tacos. 50 cent tacos! I’ll take 30. It’s raining tacos, from out of the sky, tacos, don’t even ask why. Give me all your tacos. Let’s do a beef and a chicken, and one with both. TACOS!! If you were a taco, would you eat yourself? You see, the refried beans are really just the adhesive necessary to apply the soft tortilla to the hard taco shell. Make it a double there pal. Let’s do a beef and a chicken, and one with both.</p>
+					</div>
+					<div class="col-md-4 ">
+						<img class="card-img" src="beverages-brunch-cocktail-5317.jpg" alt="brunch in new mexico" />
 					</div>
 				</div>
 			</div>
-			<div class="card card-content m-3">
+			<div class="card card-content border border-primary m-3">
 				<div class="row">
-					<img class="img-fluid mx-auto pt-2 d-block" src="https://source.unsplash.com/7bwQXzbF6KE/720x480" alt="girl hiking"/>
-				</div>
-				<div class="row mt-1">
 					<div class="col">
-						<p class="text-center m-0">Text... its a blurb about this really nice photo</p>
+						<img class="card-img-top" src="arizona-clouds-dawn-248174.jpg" alt="beautiful picture"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<p class="card-text text-center m-0">Text... its a blurb about this really nice photo</p>
 					</div>
 				</div>
 			</div>
-			<div class="card card-content m-3">
-				<p>text</p>
-			</div>
-			<div class="card card-content m-3">
-				<p>text</p>
+			<div class="card card-content border border-primary m-3">
+				<div class="row">
+					<div class="col-md-6 ">
+						<img class="card-img" src="plate-of-food.jpg" alt="brunch in new mexico" />
+					</div>
+					<div class="col-md-6 pt-3">
+						<h3>Recipe Post</h3>
+						<ul>
+							<li>
+								Preheat an oven to a bunch of temp
+							</li>
+							<li>
+								cut stuff into chunks, season with salt and pepper
+							</li>
+							<li>
+								do a thing, toss a salad, make a drink
+							</li>
+							<li>
+								put the sauce on
+							</li>
+							<li>
+								bake for a few minutes or something idk
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</section>
 		<!--Contact-Form-------------------------------------------------->
