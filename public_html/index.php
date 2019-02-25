@@ -3,16 +3,19 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<link rel="stylesheet" href="styles.css" type="text/css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous" />
 
-		<link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
 
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
-		<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-		<script src="jquery.fancybox.min.js"></script>
+		<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+
 
 		<title>All in Good Taste</title>
 	</head>
@@ -21,15 +24,21 @@
 		<header class="container-fluid bg-warning p-5">
 			<img src="#" alt="main page graphic">
 		</header>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-			<a class="navbar-brand" href="#">Navigator</a>
-			<div class="collapse navbar-collapse">
-				<div class="navbar-nav">
-					<a href="#" class="nav-item nav-link">Instagram link</a>
-					<a href="#" class="nav-item nav-link">Twitter Link</a>
-				</div>
-			</div>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-secondary sticky-top">
+			<a class="navbar-brand" href="#">Home or Icon</a>
+			<ul class="nav nav-pills">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Find Me!</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="https://www.instagram.com/?hl=en" target="_blank">Instagram</a>
+						<a class="dropdown-item" href="https://twitter.com/?lang=en" target="_blank">Twitter</a>
+						<a class="dropdown-item" href="#contact-form">Contact Me</a>
+					</div>
+				</li>
+			</ul>
 		</nav>
+
+
 		<!--Start-of-Posts/Blogs-------------------------------------------------->
 		<section class="container bg-secondary p-2">
 			<div class="card card-content border border-primary m-3">
@@ -63,7 +72,7 @@
 			<div class="card card-content border border-primary m-3">
 				<div class="row">
 					<div class="col-md-6 ">
-						<img class="card-img" src="plate-of-food.jpg" alt="brunch in new mexico" />
+						<img class="img-fluid rounded-top rounded-sm-left" src="plate-of-food.jpg" alt="brunch in new mexico" />
 					</div>
 					<div class="col-md-6 pt-3">
 						<h3>Recipe Post</h3>
@@ -89,12 +98,24 @@
 			</div>
 		</section>
 		<!--Contact-Form-------------------------------------------------->
-		<section class="container bg-secondary text-warning" name="contact form">
+		<section class="container bg-secondary text-warning" id="contact-form" name="contact form">
 			<p class="m-0">This will be the contact form</p>
 		</section>
 		<!--Footer-------------------------------------------------->
 		<footer class="container-fluid bg-warning p-5">
-
+			<div class="row">
+				<div class="col">
+					<a href="#">
+						<img src="#" alt="icon for instagram">
+					</a>
+					<a href="#">
+						<img src="#" alt="icon for twitter">
+					</a>
+					<a href="index.php">
+						<img src="#" alt="icon for homepage">
+					</a>
+				</div>
+			</div>
 		</footer>
 	</body>
 </html>
