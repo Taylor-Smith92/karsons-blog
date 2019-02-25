@@ -21,10 +21,10 @@
 	</head>
 	<body>
 		<!--Header-------------------------------------------------->
-		<header class="container-fluid bg-warning p-5">
+		<header class="container-fluid p-5">
 			<img src="#" alt="main page graphic">
 		</header>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-secondary sticky-top">
+		<nav class="navbar navbar-expand-lg sticky-top">
 			<a class="navbar-brand" href="#">Home or Icon</a>
 			<ul class="nav nav-pills">
 				<li class="nav-item dropdown">
@@ -40,11 +40,11 @@
 
 
 		<!--Start-of-Posts/Blogs-------------------------------------------------->
-		<section class="container bg-secondary p-2">
-			<div class="card card-content border border-primary m-3">
+		<section class="container p-2">
+			<div class="card card-content m-3">
 				<div class="row mb-5 px-3">
 					<div class="col-12">
-						<h3 class="text-center">Blog Title Is So Interesting</h3>
+						<h2 class="text-center">Blog Title Is So Interesting</h2>
 					</div>
 					<div class="col-md-8 ">
 						<p class="">Every day is taco ipsum tuesday. Give me all your tacos. Tacos Al pastor/De Adobada are made of thin pork steaks seasoned with adobo seasoning, then skewered and overlapped on one another on a vertical rotisserie cooked and flame-broiled as it spins. Add in a few el Pastor with guac and diced onions. Tacos, again? This will be 5 times this week and it’s only Tuesday. Tacos for breakfast, lunch and dinner. Tacos Al pastor/De Adobada are made of thin pork steaks seasoned with adobo seasoning, then skewered and overlapped on one another on a vertical rotisserie cooked and flame-broiled as it spins.
@@ -55,11 +55,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="card card-content border border-primary m-3">
+			<div class="card card-content m-3">
 				<div class="row">
 					<div class="col imglist">
 						<a id="button" href="arizona-clouds-dawn-248174.jpg" data-fancybox data-caption="beautiful picture">
-							<img class="card-img-top" src="arizona-clouds-dawn-248174.jpg" alt="beautiful picture"/>
+							<img class="img-fluid" src="arizona-clouds-dawn-248174.jpg" alt="beautiful picture"/>
 						</a>
 					</div>
 				</div>
@@ -69,13 +69,13 @@
 					</div>
 				</div>
 			</div>
-			<div class="card card-content border border-primary m-3">
+			<div class="card card-content m-3">
 				<div class="row">
 					<div class="col-md-6 ">
-						<img class="img-fluid rounded-top rounded-sm-left" src="plate-of-food.jpg" alt="brunch in new mexico" />
+						<img class="img-fluid" src="plate-of-food.jpg" alt="brunch in new mexico" />
 					</div>
 					<div class="col-md-6 pt-3">
-						<h3>Recipe Post</h3>
+						<h2>Recipe Post</h2>
 						<ul>
 							<li>
 								Preheat an oven to a bunch of temp
@@ -102,7 +102,7 @@
 			<p class="m-0">This will be the contact form</p>
 		</section>
 		<!--Footer-------------------------------------------------->
-		<footer class="container-fluid bg-warning p-5">
+		<footer class="container-fluid p-5">
 			<div class="row">
 				<div class="col">
 					<a href="#">

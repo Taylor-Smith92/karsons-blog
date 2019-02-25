@@ -6,3 +6,28 @@ font-family: 'Teko', sans-serif;
 font-family: 'Cookie', cursive;
 font-family: 'Suez One', serif;
 **/
+body {
+	background-image: linear-gradient(to bottom, rgba(255, 182, 193, 0.1), rgba(255, 182, 193, 1)), url("bg-karson-blog.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.navbar, header {
+	background-color: #FFB6C1;
+	opacity: .9;
+}
+
+footer {
+	opacity: 0.25;
+}
+
+a.navbar-brand, a.nav-link.dropdown-toggle {
+	color: whitesmoke;
+}
+
+section.container.p-2 {
+	background-color: rgba(165, 160, 160, 0.76);
+}
+
+div.card-content {
+	border: thick solid hotpink;
+}
