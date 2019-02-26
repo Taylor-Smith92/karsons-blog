@@ -31,3 +31,7 @@ section.container.p-2 {
 div.card-content {
 	border: thick solid hotpink;
 }
+
+.fake-logo {
+	width: 100vw;
+}
