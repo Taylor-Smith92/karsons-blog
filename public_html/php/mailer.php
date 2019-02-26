@@ -18,10 +18,10 @@ $sendgrid = new \SendGrid($smtpSecret);
 $recaptcha = new \ReCaptcha\ReCaptcha($secret);
 $resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
 try {
-	// if there's a reCAPTCHA error, throw an exception
-//	if (!$resp->isSuccess()) {
-//		throw(new Exception("reCAPTCHA error!"));
-//	}
+	//if there's a reCAPTCHA error, throw an exception
+	if (!$resp->isSuccess()) {
+	throw(new Exception("reCAPTCHA error!"));
+}
 	/**
 	 * Sanitize the inputs from the form: name, email, subject, and message.
 	 * This assumes jQuery (NOT Angular!) will be AJAX submitting the form,
@@ -29,10 +29,10 @@ try {
 	 **/
 	$name = filter_input(INPUT_POST, "contactName", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$email = filter_input(INPUT_POST, "contactEmail", FILTER_SANITIZE_EMAIL);
-	$subject = filter_input(INPUT_POST, "contactSubject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$message = filter_input(INPUT_POST, "contactMessage", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+	$subject = filter_input(INPUT_POST, "contactSubject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	// create SendGrid object
-	$emailObject = new Mail();
+	$emailObject = new SendGrid\Mail\Mail();
 	/**
 	 * Attach the sender to the message.
 	 * This takes the form of an associative array where $email is the key for the real name.
@@ -45,8 +45,11 @@ try {
 	$recipients = $MAIL_RECIPIENTS;
 	$emailObject->addTo($recipients[0], $recipients[1]);
 	// attach the subject line to the message
-	//todo add if block to create subject line when none provided
-	$emailObject->setSubject($subject);
+	if ((empty($subject)) === true) {
+		$emailObject->setSubject("From All in Good Taste");
+	} else {
+		$emailObject->setSubject($subject);
+	};
 	/**
 	 * Attach the actual content for the email.
 	 **/
