@@ -27,7 +27,7 @@ footer {
 	opacity: 0.5;
 }
 
-a.navbar-brand, a.nav-link.dropdown-toggle {
+a.navbar-brand, a.nav-link.dropdown-toggle, .contact-wrapper {
 	color: whitesmoke;
 }
 
