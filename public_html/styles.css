@@ -54,3 +54,7 @@ i {
 a > i {
 	font-size: 40px;
 }
+
+button.btn {
+	color: whitesmoke;
+}
