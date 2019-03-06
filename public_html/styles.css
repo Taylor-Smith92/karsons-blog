@@ -1,20 +1,26 @@
-/**
-*font-family: 'Indie Flower', cursive;
-*font-family: 'Staatliches', cursive;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Teko', sans-serif;
-font-family: 'Cookie', cursive;
-font-family: 'Suez One', serif;
-**/
 body {
-	background-image: linear-gradient(to bottom, rgba(255, 182, 193, 0.1), rgba(255, 182, 193, 1)), url("#");
-	background-size: cover;
+	background-image: linear-gradient(to bottom, rgba(255, 182, 193, 0.1), rgba(255, 182, 193, 1)), url("bricks-brickwall-brickwork-1092364.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+div > h2, div.row > div > h2 {
+	font-family: 'Montserrat', sans-serif, medium;
+}
+
+div > p, .card-text, li {
+	font-family: 'Raleway', sans-serif, regular-italic;
 }
 
 header {
 	background-image: linear-gradient(to top, rgba(255, 182, 193, 0.9), rgba(255, 182, 193, 0.1));
 }
+
+.fake-logo {
+	width: 100vw;
+}
+
 .navbar {
 	background-color: rgba(255, 182, 193, 0.9);
 }
@@ -23,21 +29,22 @@ header {
 	background-image: linear-gradient(to bottom, rgba(255, 182, 193, 0.9), rgba(255, 182, 193, 0.1));
 }
 
-footer {
-	opacity: 0.5;
-}
-
 a.navbar-brand, a.nav-link.dropdown-toggle, .contact-wrapper, a > i {
 	color: whitesmoke;
 }
 
-a.nav-link.dropdown-toggle:active, a.nav-link.dropdown-toggle:focus {
+.dropdown-toggle {
+	color: whitesmoke;
+}
+
+.dropdown-toggle:hover {
+ color: hotpink;
+}
+
+a.nav-link.dropdown-toggle:active, a.nav-link.dropdown-toggle:focus, div.dropdown-menu > a.dropdown-item:active {
 	background-color: hotpink;
 }
 
-div.dropdown-menu.dropdown-item {
-	background-color: hotpink;
-}
 /**
 section.container.p-2,
  */
@@ -46,12 +53,9 @@ section.container.p-2,
 }
 
 div.card {
-	border-width: 1rem;
+	border-width: .25rem;
 	border-color: rgba(156, 156, 156, 0.6);
-}
-
-.fake-logo {
-	width: 100vw;
+	background-color: rgba(255, 255, 255, .6);
 }
 
 .contact-wrapper {
@@ -68,4 +72,8 @@ a > i {
 
 button.btn {
 	color: whitesmoke;
+}
+
+footer {
+	opacity: 0.5;
 }
