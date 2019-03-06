@@ -7,7 +7,7 @@ font-family: 'Cookie', cursive;
 font-family: 'Suez One', serif;
 **/
 body {
-	background-image: linear-gradient(to bottom, rgba(255, 182, 193, 0.1), rgba(255, 182, 193, 1));
+	background-image: linear-gradient(to bottom, rgba(255, 182, 193, 0.1), rgba(255, 182, 193, 1)), url("");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -31,20 +31,31 @@ a.navbar-brand, a.nav-link.dropdown-toggle, .contact-wrapper, a > i {
 	color: whitesmoke;
 }
 
-section.container.p-2, .contact-wrapper {
+a.nav-link.dropdown-toggle:active, a.nav-link.dropdown-toggle:focus {
+	background-color: hotpink;
+}
+
+div.dropdown-menu.dropdown-item {
+	background-color: hotpink;
+}
+/**
+section.container.p-2,
+ */
+.contact-wrapper {
 	background-color: rgba(182, 177, 177, 0.6);
 }
 
-div.card-content {
-	border: thick solid rgba(255, 182, 193, 0.9);
+div.card {
+	border-width: 1rem;
+	border-color: rgba(156, 156, 156, 0.6);
 }
 
 .fake-logo {
 	width: 100vw;
 }
 
-.card-wrapper, .contact-wrapper {
-	border-radius: 1rem;
+.contact-wrapper {
+	border-radius: 1.25rem;
 }
 
 i {
