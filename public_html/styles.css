@@ -58,7 +58,7 @@ div.card {
 	border-width: .25rem;
 	border-color: rgba(156, 156, 156, 0.6);
 	background-color: rgba(255, 255, 255, .7);
-	box-shadow: 10px 5px 5px rgb(156, 156, 156);
+	box-shadow: 10px 5px 5px rgba(156, 156, 156, .8);
 }
 
 .contact-wrapper {
