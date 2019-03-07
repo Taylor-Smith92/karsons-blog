@@ -1,10 +1,12 @@
 body {
-	background-image: linear-gradient(to bottom, rgba(255, 182, 193, 0.1), rgba(255, 182, 193, 1)), url("bricks-brickwall-brickwork-1092364.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-
+	background: linear-gradient(to bottom, #FFB6C1, #FFB6C1 50%, #ffffff 50%, #ffffff) fixed;
+	background-size: 100% 16vh;
 }
-
+/**
+background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+**/
 div > h2, div.row > div > h2 {
 	font-family: 'Montserrat', sans-serif, medium;
 }
@@ -55,11 +57,12 @@ section.container.p-2,
 div.card {
 	border-width: .25rem;
 	border-color: rgba(156, 156, 156, 0.6);
-	background-color: rgba(255, 255, 255, .6);
+	background-color: rgba(255, 255, 255, .7);
+	box-shadow: 10px 5px 5px rgb(156, 156, 156);
 }
 
 .contact-wrapper {
-	border-radius: 1.25rem;
+	border-radius: .3rem;
 }
 
 i {
@@ -76,4 +79,5 @@ button.btn {
 
 footer {
 	opacity: 0.5;
+	background-color: #FFB6C1;
 }
