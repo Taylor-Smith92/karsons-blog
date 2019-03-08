@@ -11,7 +11,7 @@ div > h2, div.row > div > h2 {
 	font-family: 'Montserrat', sans-serif, medium;
 }
 
-div > p, .card-text, li {
+div > p, .card-text, li , p {
 	font-family: 'Raleway', sans-serif, regular-italic;
 }
 
